@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 2</title>
+    <!-- Importamos el CSS de Bootstrap v5.3.3 --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" 
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Menu de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid justify-content-center justify-content-md-start">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">INDEX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="Pagina1.html">Pagina 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Pagina2.html">Pagina 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pagina3.html">Pagina 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Página 2: Creatividad y Diseño</h1>
+
+        <p class="lead text-secondary">
+            El diseño visual juega un papel determinante en la retención de usuarios dentro de un sitio web. La elección adecuada de colores, tipografías y la alineación de componentes genera una primera impresión positiva.
+        </p>
+
+        <!-- IMÁGENES -->
+        <div class="row my-4 text-center">
+            <div class="col-md-4 mb-3">
+                <img src="https://picsum.photos/400/250?random=4" class="img-fluid rounded-circle shadow-sm" alt="Imagen 1">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://picsum.photos/400/250?random=5" class="img-fluid rounded-circle shadow-sm" alt="Imagen 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://picsum.photos/400/250?random=6" class="img-fluid rounded-circle shadow-sm" alt="Imagen 3">
+            </div>
+        </div>
+
+        <p>
+            Integrar contenido multimedia como fotografías de buena resolución o gráficos limpios complementa la lectura y ayuda a transmitir la idea principal del sitio de manera fluida y agradable.
+        </p>
+        <p>
+            Además, la maquetación responsiva garantiza que los elementos no se desborden ni se solapen al navegar desde teléfonos móviles, tabletas o computadoras de escritorio.
+        </p>
+
+        <hr class="my-4">
+
+        <!-- COMPONENTE BOOTSTRAP 1: Tarjeta (Card) -->
+        <div class="row justify-content-center my-4">
+            <div class="col-md-6">
+                <div class="card text-center shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarjeta Informativa</h5>
+                        <p class="card-text">Este es un componente de tarjeta de Bootstrap útil para destacar información clave.</p>
+                        <a href="Pagina3.html" class="btn btn-success">Ir a la Página 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COMPONENTE BOOTSTRAP 2: Barra de Progreso -->
+        <div class="mt-4">
+            <h6>Progreso de la actividad:</h6>
+            <div class="progress" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar bg-success" style="width: 66%">66% completado</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

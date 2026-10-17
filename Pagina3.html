@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina 3</title>
+    <!-- Importamos el CSS de Bootstrap v5.3.3 --> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" 
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Menu de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid justify-content-center justify-content-md-start">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">INDEX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="Pagina1.html">Pagina 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pagina2.html">Pagina 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="Pagina3.html">Pagina 3</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Página 3: Preguntas y Cierre</h1>
+        
+        <p class="lead text-secondary">
+            Llegar al final de la estructura de un proyecto nos permite revisar y validar que cada uno de los elementos cumpla con los estándares esperados tanto en contenido como en funcionalidad.
+        </p>
+        <p>
+            Al utilizar componentes reutilizables como menús, alertas y acordeones, se logra dar coherencia estética a todo el portal web, facilitando la comprensión por parte del usuario.
+        </p>
+
+        <!-- IMÁGENES -->
+        <div class="row my-4 text-center">
+            <div class="col-md-4 mb-3">
+                <img src="https://picsum.photos/400/250?random=7" class="img-fluid rounded shadow-sm" alt="Imagen 1">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://picsum.photos/400/250?random=8" class="img-fluid rounded shadow-sm" alt="Imagen 2">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="https://picsum.photos/400/250?random=9" class="img-fluid rounded shadow-sm" alt="Imagen 3">
+            </div>
+        </div>
+
+        <p>
+            Asegúrate de guardar todos los archivos dentro de la misma carpeta donde tengas ubicado tu archivo `index.html` para que los enlaces de navegación funcionen de manera fluida entre sí.
+        </p>
+
+        <h4 class="mt-5 mb-3">Preguntas Frecuentes</h4>
+        <div class="accordion mb-4" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        ¿Cómo funciona la navegación?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Utiliza enlaces de HTML relativos que conectan una página con otra dentro del mismo directorio.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="mb-3">Resumen de Requisitos Cumplidos</h4>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                3 Párrafos por página
+                <span class="badge bg-primary rounded-pill">✔</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                3 Imágenes por página
+                <span class="badge bg-primary rounded-pill">✔</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                2 Componentes de Bootstrap por página
+                <span class="badge bg-primary rounded-pill">✔</span>
+            </li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
